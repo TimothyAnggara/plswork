@@ -1,10 +1,23 @@
 import ExperienceCard from "../SubComponents/ExperienceCard"
 import intersystems from "../../assets/company_logos/intersystem.svg"
 import usyd from "../../assets/company_logos/Usyd.svg"
+import Prop from "../../assets/company_logos/42Prop.jpg"
 import kfc from "../../assets/company_logos/kfc.png"
 
 function Experience(){
     const experiences = [
+        { 
+            logo_path: Prop, 
+            role: 'Junior Developer', 
+            start: 'Sept 2025', 
+            end: 'Present',
+            responsibilities: [
+                "Engineered modular system architecture in Odoo, designing relational data models (Clients, Agents, Properties,Portfolios) with computed fields and dynamic visibility conditions to improve data integrity and usability",
+                "Automated key performance metric calculations (rental yield, capital growth, portfolio ROI), eliminating manualtracking and ensuring analytics consistency",
+                "Supported the creation of analytics and AI integration frameworks to guide future data-driven decision-makingand enhance product scalability",
+            ],
+            align: true
+        },
         { 
             logo_path: usyd, 
             role: 'Research Intern', 
